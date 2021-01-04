@@ -14,7 +14,7 @@ public class AccountController {
   }
 
   @GetMapping("/account/{role}/{username}/{password}")
-  public Account creaAccount(@ModelAttribute Account account) {
+  public Account createAccount(@ModelAttribute Account account) {
     return accountService.createNew(account);
   }
 }
