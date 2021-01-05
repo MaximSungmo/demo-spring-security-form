@@ -16,7 +16,9 @@ ThreadLocal<sup>[1](#footnote_1)</sup>로 인해 SecurityContextHolder 에서 �
 
 Principal 은 UserDetailsService를 상속받아 `@Override` 한 메소드인 `loadUserByUsername` 의 리턴 객체임을 알 수 있다. 
 
-Servlet 기반에선 Request 당 Thread 가 생성되므로 하나의 Request 에선 ThreadLocal에 동일하게 접근이 가능하다. 
+Servlet 기반에선 Request 당 Thread 가 생성되므로 하나의 Request 에선 ThreadLocal에 동일하게 접근이 가능하다.
+
+UserDetailsService 인터페이스는 유저 정보를 UserDetails 타입으로 가져오는 DAO 인터페이스
 
 <!-- 글 뒷 부분에 -->
 <a name="footnote_1">1</a>: 하나의 쓰레드에서 쉐어하는 저장소
