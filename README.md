@@ -18,3 +18,5 @@
 [7. AccessDecisionManager](https://github.com/MaximSungmo/demo-spring-security-form/blob/master/md_files/architecture_07.md)
 
 [8. FilterSecurityInterceptor](https://github.com/MaximSungmo/demo-spring-security-form/blob/master/md_files/architecture_08.md)
+
+[9. ExceptionTranslationFilter](https://github.com/MaximSungmo/demo-spring-security-form/blob/master/md_files/architecture_09.md)
