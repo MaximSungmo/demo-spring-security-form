@@ -20,3 +20,5 @@
 [8. FilterSecurityInterceptor](https://github.com/MaximSungmo/demo-spring-security-form/blob/master/md_files/architecture_08.md)
 
 [9. ExceptionTranslationFilter](https://github.com/MaximSungmo/demo-spring-security-form/blob/master/md_files/architecture_09.md)
+
+[10. 스프링시큐리티 아키텍쳐 총정리](https://github.com/MaximSungmo/demo-spring-security-form/blob/master/md_files/architecture_10.md)
