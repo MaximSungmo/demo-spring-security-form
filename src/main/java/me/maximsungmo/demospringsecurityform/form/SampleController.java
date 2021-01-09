@@ -39,6 +39,7 @@ public class SampleController {
   @GetMapping("/dashboard")
   public String dashboard(Model model, Principal principal) {
     model.addAttribute("message", "Hello " + principal.getName());
+    // 스레드 로컬을 사용해서 만들어보기
     AccountContext.setAccount(accountRepository.findByUsername(principal.getName()));
     sampleService.checkAccount();
     sampleService.dashboard();

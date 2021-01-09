@@ -8,5 +8,7 @@
 [2. AuthenticationManager 와 Authentication](https://github.com/MaximSungmo/demo-spring-security-form/blob/master/md_files/architecture_02.md)
 
 [3. ThreadLocal](https://github.com/MaximSungmo/demo-spring-security-form/blob/master/md_files/architecture_03.md)
+
+[4. Authentication 과 SecurityContextHolder](https://github.com/MaximSungmo/demo-spring-security-form/blob/master/md_files/architecture_04.md)
  
 

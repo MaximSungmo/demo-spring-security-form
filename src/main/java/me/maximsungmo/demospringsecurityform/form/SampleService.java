@@ -13,6 +13,7 @@ import java.util.Collection;
 public class SampleService {
 
   public void dashboard() {
+    // 스프링 시큐리티 컨텍스트 홀더를 통해 정보 가져오기
     Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
     Object principal = authentication.getPrincipal(); // loadUserByUsername 의 return 된 User 객체
     Collection<? extends GrantedAuthority> authorities =
