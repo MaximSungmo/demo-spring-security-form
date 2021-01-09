@@ -19,6 +19,7 @@ Access Control 결정을 내리는 인터페이스로, 구현체 3가지를 기�
 이러한 권한은 AccessDecisionManager를 통해서 할 수 있고 구현을 위하 voter list 를 정의해서 넘겨주어야한다.
 
 
+위의 과정을 조금 줄이는 방법으로는 expressionhandler를 구현해서 넣어주는 방법이 있다.
 
 
  
