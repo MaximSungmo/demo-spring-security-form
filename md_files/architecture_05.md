@@ -25,4 +25,18 @@ FilterChainProxy 클래스에서 시큐리티 필터 목록을 순차적으로 �
 
 결과적으로 필터체인이 SecurityConfig 를 관리하는 곳에서 지정이 되는 것으로 알 수 있다. 
 
+---
+
+antMatcher() VS mvcMatcher()
+
+> antMatcher(String antPattern) - Allows configuring the HttpSecurity to only be invoked when matching the provided ant pattern.
+
+> mvcMatcher(String mvcPattern) - Allows configuring the HttpSecurity to only be invoked when matching the provided Spring MVC pattern.
+
+Generally mvcMatcher is more secure than an antMatcher. As an example:
+```
+antMatchers("/secured") matches only the exact /secured URL
+mvcMatchers("/secured") matches /secured as well as /secured/, /secured.html, /secured.xyz
+```
+
  
